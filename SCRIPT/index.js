@@ -125,20 +125,21 @@ console.log("viewHeight: " + viewHeight);
 
     /* portfolio */
     if(viewHeight >=3425) {
-        sideNav.style.color = "black";
+        // sideNav.style.color = "black";
         if(viewHeight >=3809) {
             nudakeBack.style.position = "fixed";
             nudakeBack.style.left = "50%";
             nudakeBack.style.width = "50%";
-            sideNav.style.color = "black";
+            dogomiBack.style.display = "block";
+            // sideNav.style.color = "black";
             if(viewHeight >= 4200) {
                 nudakeBack.style.opacity = "0";
                 nudakeBack.style.transition = "0.5s";
                 dogomiBack.style.opacity = "1";
                 dogomiBack.style.transition = "0.5s";
-                sideNav.style.color = "black";
+                // sideNav.style.color = "black";
                 if(viewHeight >= 5251) {
-                    sideNav.style.color = "white"; 
+                    // sideNav.style.color = "white"; 
                 }
             }
             else {
@@ -152,9 +153,10 @@ console.log("viewHeight: " + viewHeight);
             nudakeBack.style.left = "100%";
             nudakeBack.style.width = "100%";
             nudakeBack.style.transition = "0s";
+            dogomiBack.style.display = "none";
         }
     }
-    else { sideNav.style.color = "white"; }
+    // else { sideNav.style.color = "white"; }
 /* contact */
     let scrollY = window.scrollY || document.documentElement.scrollTop;
 // console.log(scrollY);
