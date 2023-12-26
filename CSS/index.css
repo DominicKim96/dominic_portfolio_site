@@ -453,6 +453,7 @@ a {
     background: url(../img/portfolioImg/nudakeBack.png) no-repeat center / cover; 
 }
 .dogomiBack {
+    display: none;
     width: 50%;
     position: fixed;
     top: 0;
