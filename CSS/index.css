@@ -40,7 +40,7 @@ a {
 .sideNav {
     position: fixed;
     top: 50%;
-    right: 5%;
+    left: 5%;
     transform: translateY(-50%);
 
     color: #fff;
@@ -98,7 +98,8 @@ a {
 .mainTxtBox {
     position: absolute;
     top: 0;
-    left: 1%;
+    left: 60%;
+    text-align: right;
 }
 .mainTxt {
     color: #fff;
@@ -204,6 +205,12 @@ a {
     border: 1px solid #fff;
     border-radius: 30px;
     overflow: hidden;
+    margin-top: 55px;
+}
+.bjTxt:hover {
+    cursor: pointer;
+    background-color: rgb(204, 204, 204);
+    color: #000;
 }
 .downImg {
     width: 35px;
@@ -213,7 +220,7 @@ a {
 }
 .downTxt {
     float: left;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .aboutmeActive { opacity: 1; height: 100%;}
@@ -302,6 +309,19 @@ a {
 /* tool */
 .vscodeImg { background: url(../img/vscode.png) no-repeat center / contain; }
 .intellijImg { background: url(../img/IntelliJ.png) no-repeat center / contain; }
+.stsImg {
+    background: url(../img/stsImg.png) no-repeat center / contain; 
+    position: relative;
+}
+.stsImg > div {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 900;
+    color: #6db140;
+}
+
 
 
 
@@ -351,18 +371,16 @@ a {
     font-size: 26px;
     font-weight: 900;
     padding-top: 100px;
-    padding-left: 36%;
+    padding-left: 25%;
     box-sizing: border-box;
 }
 .nudakeFont { 
     color: rgba(255, 255, 255, 0.8);
     font-weight: 900;
     font-size: 15px;
-    padding-left: 36%;
+    padding-left: 25%;
 }
-.portAtt {
-    padding-left: 41%;
-}
+.portAtt {}
 .portTime {
     margin-top: 80px;
     margin-bottom: 25px;
@@ -397,7 +415,7 @@ a {
 }
 .nudakeBt {
     padding: 10px;
-    margin-left: 36%;
+    margin-left: 25%;
     border: 1px solid;
     border-radius: 5px;
 }
@@ -410,12 +428,12 @@ a {
     color: rgb(210 167 118);
     font-weight: 900;
     font-size: 15px;
-    padding-left: 36%;
+    padding-left: 25%;
 }
 .dogomiTxt > div:nth-child(1) { color: rgb(210 167 118); }
 .dogomiBt {
     padding: 10px;
-    margin-left: 36%;
+    margin-left: 25%;
     border: 1px solid;
     border-radius: 5px;
 }
