@@ -98,7 +98,7 @@ a {
 .mainTxtBox {
     position: absolute;
     top: 0;
-    left: 60%;
+    right: 2%;
     text-align: right;
 }
 .mainTxt {
